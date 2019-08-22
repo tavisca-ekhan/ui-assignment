@@ -13,7 +13,7 @@
 <body>
     <div id="side-navigation" class="side-nav">
         <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
-        <a href="#">Todo</a>
+        <a href="/todo-app/todo.html">Todo</a>
         <a href="/todo-app/user.html">User</a>
         <a href="/todo-app/dept.html">Department</a>
       </div>
@@ -27,28 +27,19 @@
           </svg>
         </a>
         <a href="/todo-app/index.html" id="home">
-          <font size="5">Home</font>
-        </a>
-        <div class="search-container">
-            <form action="">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
+            <font size="5">Home</font>
+          </a>
+          <div class="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+          </div>
       </nav>
        
       <div id="main">
-        <div class="container">
-            <div id="my-div" class="header">
-                <h2>Todo List</h2>
-                <input type="text" id="myInput" placeholder="Title...">
-                <span onclick="newElement()" class="addBtn">Add</span>
-            </div>
-            <ul id="my-list">
-            </ul>
-        </div>
+        
       </div>
-      <script src="src/data.js"></script>
       <script src="src/nav.js"></script>
       <script src="src/main.js"></script>
 </body>
