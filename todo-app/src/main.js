@@ -5,12 +5,11 @@
     document.getElementById("my-list").appendChild(li); 
 }
 
-
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var txt = document.createTextNode("Delete");
   span.className = "close";
   span.appendChild(txt);
   myNodelist[i].appendChild(span);
@@ -33,6 +32,7 @@ list.addEventListener('click', function(ev) {
     ev.target.classList.toggle('checked');
   }
 }, false);
+
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {

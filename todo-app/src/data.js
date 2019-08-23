@@ -15,9 +15,6 @@ const lists = [
         title: "Practice Node.js"
     },
     {
-        title: "Sutta Time"
-    },
-    {
         title: "Music On!!!!!!!!!!!!!!!!!!!"
     },
     {
