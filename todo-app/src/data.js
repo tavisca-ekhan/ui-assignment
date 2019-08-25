@@ -1,23 +1,11 @@
 const lists = [
     {
-        title: "Go for a run"
+        title: "study "
     },
     {
-        title: "Take a shower"
+        title: "play"
     },
     {
-        title: "Do Breakfast"
-    },
-    {
-        title: "Learn GraphQL"
-    },
-    {
-        title: "Practice Node.js"
-    },
-    {
-        title: "Music On!!!!!!!!!!!!!!!!!!!"
-    },
-    {
-        title: "Tea Break, Yeah!!!!!!!!"
+        title: "do whatever you want"
     }
 ]
